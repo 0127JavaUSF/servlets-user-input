@@ -22,7 +22,7 @@ public class KittenServlet extends HttpServlet {
 		kitten.setId(1);
 		
 		resp.setStatus(201); // created
-		resp.getWriter().write(kitten.toString());		
+		resp.getWriter().write(kitten.toString());
 	}
 	
 	@Override
