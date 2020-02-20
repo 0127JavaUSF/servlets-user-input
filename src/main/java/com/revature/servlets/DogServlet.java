@@ -17,7 +17,8 @@ public class DogServlet extends HttpServlet {
 	// Forwarding dog GET requests to KittenServlet
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
-//		resp.sendRedirect("http://www.google.com");
+
+		//		resp.sendRedirect("http://www.google.com");
 		request.getRequestDispatcher("/kittens").forward(request, resp);
 	}
 

@@ -39,8 +39,6 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.10.2</version>
 		</dependency>
-
-
 	</dependencies>
 	<build>
 		<finalName>servlets-user-input</finalName>
